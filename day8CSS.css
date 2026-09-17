@@ -1,0 +1,223 @@
+.printEmployeeDetails{
+    color:red;
+}
+
+.employee{
+    border:2px solid green;
+    width:220px;
+    height:220px;
+    padding:20px;
+}
+
+.employeeCard{
+    display:grid;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    
+    gap:30px;
+
+}
+
+.addEmployees  input,select{
+   margin-top:10px;
+}
+
+.employeeCard {
+  line-height:0px;
+  padding-left:70px;
+  font-size:10px;
+
+}
+
+.deleteButton:hover {
+    color: white;
+     font-size:20px;
+    
+}
+
+
+
+
+.employeeCard  .empNAME , .empAGE,.empEMAIL, .empDEPART , .empPHONE{
+    padding-left:50px;
+}
+.employeeCard img{
+    padding-left:40px;
+    
+}
+
+*{
+    background-color:rgb(247, 244, 244);
+}
+
+header h1{
+    color:white;
+    text-align:center;
+    border:2px solid white;
+    margin-top:0px;
+    height:90px;
+    padding-top:20px;
+    background-color:rgb(17, 11, 2);
+    border-collapse:collapse;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.dateTime{
+    position:absolute;
+    top:20px;
+    left:1100px;
+    font-size:12px;
+   
+    color:white;
+    background-color:black;
+    
+}
+.dateTime .date , .time{
+    color:white;
+    background-color:black;
+}
+.searchEmployees{
+    font-size:20px;
+    padding-left:30px;
+}
+.searchEmployees input[type="text"] {
+    border:2px solid rgb(225, 220, 220);
+   background-color:white;
+   border-radius:10px;
+    height:45px;
+    width:1050px;
+    padding-left:30px;
+}
+.searchEmployees input[type="submit"] {
+    border:2px solid blue;
+    border-radius: 10px;
+    height:45px;
+    width:100px;
+    color:white;
+    background-color:blue;
+}
+
+.totalEmployees h1{
+      font-size:22px;
+}
+
+.sorting {
+    position: absolute;
+    top: 225px;
+    left: 920px;
+    display: flex;
+    gap: 10px;
+    height:40px;
+}
+
+.sorting input{
+    border-radius:10px;
+}
+
+.employeeCard{
+    padding-top:80px;
+    
+}
+.departmentBtns{
+    position:absolute;
+    top:230px;
+    padding-left:20px;
+
+}
+.departmentBtns :hover{
+    color:white;
+    font-size:20px;
+    background-color:blue
+}
+.departmentBtns input{
+    height:40px;
+    width:auto;
+    border-radius:5px;
+    margin-left:10px;
+    background-color:rgba(244, 241, 241, 0.653);
+
+}
+.loading > h3{
+    position:absolute;
+    top:280px;
+    height:40px;
+    width:1200px;
+    text-align:center;
+    padding-top:16px;
+    margin-left:30px;
+    border:2px solid rgb(225, 220, 220);
+   background-color:white;
+    border-radius:10px;
+}
+
+.sorting :hover {
+     
+    font-size:20px;
+    background-color:blue;
+    color:white;
+}
+.searchEmployees :hover{
+     color:red;
+    font-size:20px;
+}
+.addEmployeeName {
+    padding-top:40px;
+    font-size:10px;
+    border:2px solid white;
+    height:300px;
+    background-color:white;
+}
+.addEmployeeName h1 ,form {
+background-color:white;
+}
+.addEmployeeName h1 , form{
+    text-align:center;
+    font-size:20px;
+}
+
+.addEmployees form input[type="reset"]{
+    background-color:rgb(12, 202, 91);
+}
+
+.addEmployees form input[type="submit"]{
+    background-color:rgb(12, 202, 91);
+}
+
+
+
+.addEmployees input[type="submit"]{
+ background-color:white;
+}
+
+.addEmployees input[type="reset"]{
+ background-color:white;}
+
+#employeeAddedSuccessfully{
+        color: red;
+}
+.salaries{
+  
+   border:2px solid rgb(225, 220, 220);
+    background-color:white;
+    border-radius:10px;
+
+}
+.outSalariesBox {
+    display:grid;
+    grid-template-columns:230px 230px 230px 230px ;
+    margin-top:140px;
+    margin-left:105px;
+    height:120px;
+    gap:40px;
+    
+}
+.salaries h3{
+  padding-top:30px;
+  padding-left:12px;
+     background-color:white;
+
+
+}
+
+
+

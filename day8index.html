@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="day8CSS.css">
+</head>
+<body>
+    <header>
+    <h1> EMPLOYEE MANAGEMENT SYSTEM</h1>
+    </header>
+
+    <div class="dateTime">
+        <h2 class = "date"></h2>
+        <h2 class = "time"></h2>
+    </div>
+
+
+
+    <div class="searchEmployees">
+        <h3></h3>
+        <form>
+            <input type="text" name = "employeeName" placeholder="Enter employee name">
+            <input type="submit" value = "search">
+         </form>
+    </div>
+
+    <div class="printEmployeeDetails">
+        <h1></h1>
+        <img>
+    </div>
+
+    <div class="totalEmployees">
+        <h1></h1>
+    </div>
+    
+    <div class="departmentBtns">
+    <input type="submit" value="All" name="allDepartment">
+    <input type="submit" value="IT" name="ItDepartment">
+    <input type="submit" value="HR" name="HrDepartment">
+    <input type="submit" value="Support" name="FinanceDepartment"> 
+    <input type="submit" value="Marketing" name="MarketingDepartment">
+    </div>
+
+    <div class="loading">
+        <h3>Employee data loaded successfully.</h3>
+    </div>
+
+
+    <div class ="sorting">
+    <input type="submit" value="Sort By Name" name="byName">
+    <input type="submit" value="Sort By Age" name="byAge">
+    <input type="submit" value="Sort By Salary" name="bySalary">
+    </div>
+
+
+        <div class="outSalariesBox">
+
+                <div class="salaries totalEmploy">
+                    <h3></h3>
+                </div>
+               <div class="salaries totalSalary">
+                 <h3></h3>
+                </div>
+                <div class="salaries averageSalary">
+                     <h3></h3>
+                </div>
+                <div class="salaries highestSalary">
+                     <h3></h3>
+                </div>
+                               
+        </div>
+
+
+    <div class="employeeCard">   
+    </div>
+
+
+        <div class="addEmployeeName">
+             <h1> ADD EMPLOYEES</h1>
+                    
+
+            <div class="addEmployees">
+                <form>
+                    <label>Enter Name:</label>
+                    <input type="text" name="empName" required><br>
+
+                    <label>Enter Age :</label>
+                    <input type="number" name="empAge" min="18" required><br>
+
+                    <label>Enter Email :</label>
+                    <input type="email" name="empEmail" required><br>
+
+                    <label>Enter Phone :</label>
+                    <input type="number" name="empPhone" minLength="10"  pattern="[0-9]{10}"  required><br>
+
+                    <label>Enter Department :</label>
+                    <select class =department required>
+                        <option value="">--Department--</option>
+                        <option value="IT">IT</option>
+                         <option value="Engineering">Engineering</option>
+                         <option value="Support">Support</option>
+                        <option value="HR">Research and Development</option>
+                    </select><br>
+
+                    <input type="submit" value="Add Employee">
+                    <input type="reset" value="Clear">
+
+                </form>
+
+            </div>
+        </div>
+
+            <h2 id="employeeAddedSuccessfully"></h2>
+
+
+            
+            
+
+
+
+    <script src = "./day8JavaScript.js"></script>
+
+    
+</body>
+</html>
