@@ -107,7 +107,7 @@ function sortEmployees(type) {      //sorts according to entered parameter
                 return a.salary - b.salary;
             });
         }
-        totalEmployeesCards("ALL");
+        totalEmployeesCards("All");
     });
 }
 
@@ -230,6 +230,9 @@ function totalEmployeesCards(inputEmployeeNam)
         deleteButton.textContent = "Delete";
         deleteButton.style.color="red";
         deleteButton.className = "deleteButton";
+
+
+ 
 
                             deleteButton.addEventListener("click", () => 
                                 {
